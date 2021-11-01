@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <script src="app.js"></script>
+    <title>Avengers Character Search</title>
+</head>
+<body>
+    <header>
+        <h1>Avengers Character Search</h1>
+    </header>
+    <main>
+        <section class="search">
+            <div class="container">
+                <!--<h4>Search by Full Name or Alias</h4>-->
+                <form action="" method="GET">
+                    <label for="query">Search by Full Name or Alias</label>
+                    <div class="search">
+                        <input type="text" name="query" id="query" placeholder="e.g Black Widow or Natasha Romanov">
+                        <button type="button" id="search-btn" class="btn">Search</button>
+                    </div>
+                </form>
+                <div class="message"></div>
+            </div>
+        </section>
+        
+        <section class="results">
+            <div class="container">
+                <h2>Result</h2>
+                
+                <hr>
+                <div id="result">
+                </div>
+            </div>
+        </section>
+            
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
